@@ -20,3 +20,24 @@ I will be uploading in folders, the DP problems I will be solving... Let's rise 
 2. [Problems and Solutions](https://leetcode.com/discuss/general-discussion/662866/DP-for-Beginners-Problems-or-Patterns-or-Sample-Solutions)
 3. [Codeforces](https://codeforces.com/blog/entry/67679)
 4. [My Fav One](https://leetcode.com/discuss/general-discussion/1000929/solved-all-dynamic-programming-dp-problems-in-7-months)
+
+
+## Template used for C++:
+
+```
+#include <bits/stdc++.h>
+using namespace std;
+
+// Main Code
+
+// Main Code Ends
+
+int main()
+{
+  int n;
+  cin >> n;
+  Solution *obj = new Solution();
+  cout << obj->fib(n) << endl;
+  return 0;
+}
+```

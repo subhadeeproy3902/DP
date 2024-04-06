@@ -30,6 +30,14 @@ using namespace std;
 
 // Main Code
 
+class Solution {
+
+  private:
+
+  public:
+
+};
+
 // Main Code Ends
 
 int main()
@@ -37,7 +45,7 @@ int main()
   int n;
   cin >> n;
   Solution *obj = new Solution();
-  cout << obj->fib(n) << endl;
+  cout << obj->{Main function Name} << endl;
   return 0;
 }
 ```

@@ -41,8 +41,6 @@ public:
 
 int main()
 {
-  int n;
-  cin >> n;
   Solution *obj = new Solution();
   int inputSize;
   cin >> inputSize;
@@ -58,6 +56,6 @@ int main()
     }
     points.push_back(temp);
   }
-  cout << obj->ninjaTraining(n, points) << endl;
+  cout << obj->ninjaTraining(inputSize, points) << endl;
   return 0;
 }

@@ -31,8 +31,6 @@ public:
 
 int main()
 {
-  int n;
-  cin >> n;
   Solution *obj = new Solution();
   int input;
   scanf("%d", &input);
